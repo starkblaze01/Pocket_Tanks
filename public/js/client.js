@@ -1,7 +1,7 @@
 var WIDTH = 1100;
 var HEIGHT = 580;
 
-var socket = io.connect('http://localhost:8082');
+var socket = io.connect('https://pocket-tanks.herokuapp.com');
 var game = new Game('#arena', WIDTH, HEIGHT, socket);
 var selectedTank = 1;
 var tankName = '';
